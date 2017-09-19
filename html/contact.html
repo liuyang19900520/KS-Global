@@ -41,6 +41,14 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 			});
 </script>
 <!--/script-->
+
+	<style>
+		#map {
+			height: 430px;
+			width: 50%;
+		}
+	</style>
+
 </head>
 <body>
 <!--header-->
@@ -65,8 +73,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 					  <ul class="nav navbar-nav">
 						<li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
 						<li><a href="about.html">About</a></li>
-						<!--<li><a href="services.html">Services</a></li>-->
-						<li><a href="blog.html">Blog</a></li>
+						<!--<li><a href="blog.html">Services</a></li>-->
+						<li><a href="blog.html">services</a></li>
 						<!--<li><a href="gallery.html">Gallery</a></li>-->
 						<li class="active"><a href="contact.html">Contact Us</a></li>
 					  </ul>
@@ -93,9 +101,30 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 		<h3>Contact</h3>
 			<div class="contact-main">
 				<div class="contact-top">
-					<div class="col-md-6 contact-top-left-wthree-agile">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>
+					<div id="map" class="col-md-6 contact-top-left-wthree-agile">
+
+						<!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>-->
+						<!--<iframe width="600" height="450" frameborder="0" style="border:0"-->
+								<!--src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJyeSJVZVgGGARI3rAI1UgTWM&key=..." allowfullscreen></iframe>-->
 					</div>
+					<!-- google maps by liuyang-->
+					<script>
+                        function initMap() {
+                            var uluru = {lat: 35.535596, lng: 139.712569	};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 16,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+					</script>
+					<script async defer
+							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO2jFUiD0IB_PIFq5MU2brvCcsBvS-5Bo&callback=initMap">
+					</script>
+					<!-- google maps by liuyang end-->
 					<div class="col-md-6 contact-top-right-wthree-agile">
 						<div class="contact-textarea">
 							<form action="#" method="post">
@@ -125,21 +154,22 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 						 <li><a href="index.html">Home</a></li>
 						 <li><a href="about.html">About</a></li>
 						 <!--<li><a href="gallery.html">Gallery</a></li>						-->
-						 <li><a href="blog.html">Blog</a></li>
+						 <li><a href="blog.html">services</a></li>
 						 <li><a href="contact.html">Contact</a></li>
 					 </ul>
 				 </div>
 				  <div class="col-md-3 get_in_touch ftr">
 					  <h3>Get In Touch</h3>
-					  <p>Ola-ola street jump,</p>
-					  <p>260-14 City, Country</p>
-					  <p>+62 000-0000-00</p>
-					  <a href="mailto:mail@mlampah.com">www.example.com</a>
+					  <p>〒2100807 <br/>神奈川県川崎市川崎区港町5-1-2207</p>
+					  <p>+81 043-386-7935</p>
+					  <a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
+
 				 </div>
 				 <div class="col-md-3 ftr_navi ftr footer-grids w3l-agileits">
 						
-					<h3>Newsletter</h3>
-					<p>It was popularised in the 1960s with the release Ipsum. </p><p>
+
+					 <h3>Join Us</h3>
+					 <p>We need you and you can send your resume to the email here </p><p>
 					 </p><form action="#" method="post">		 
 							<input type="text" class="text" name="email" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
 							<input type="submit" value="Go">					 

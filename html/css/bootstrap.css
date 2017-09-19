@@ -1113,6 +1113,12 @@ a:focus {
 figure {
   margin: 0;
 }
+
+.img-3-4 {
+ padding-bottom: 0%;
+  width: 100%;
+  height: 46%;
+}
 img {
   vertical-align: middle;
 }
