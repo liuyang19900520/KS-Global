@@ -415,13 +415,15 @@ position: absolute;
     font-size:0.9em;
 }
 .is-img{
-	background:url(../images/index-serives.jpg)no-repeat 0px 0px;
+	background:url(../images/building.jpg)no-repeat 70px 0px;
 	min-height: 430px;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
+    height: 70%;
+
+    /*background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+    /*-ms-background-size: cover;*/
+    /*-o-background-size: cover;*/
 }
 .is-img ul {
   margin: 0;
