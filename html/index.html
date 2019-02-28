@@ -6,355 +6,414 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
-<head>
-<title>KS-Global a Corporate Category Flat Bootstrap Responsive Website Template  | Home :: w3layouts</title>
-<!--css-->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!--/css-->
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="KS-Global Responsive web template, Bootstrap Web Templates, Flat Web Templates,  Android  Compatible web template, 
-Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony Ericsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->		
-<!-- js -->
-<script src="js/jquery.min.js"> </script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<!-- /js -->
-<!--fonts-->
-<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 
-<link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
-<!--/fonts-->
-<!--script-->
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+<head>
+	<title>KS-Global a Corporate Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!--css-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--/css-->
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="KS-Global Responsive web template, Bootstrap Web Templates, Flat Web Templates,  Android  Compatible web template, 
+Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+	<script src="js/jquery.min.js"> </script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- /js -->
+	<!--fonts-->
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+	<link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet'
+	 type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
+	 rel='stylesheet' type='text/css'>
+	<!--/fonts-->
+	<!--script-->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!--/script-->
+
+	<style type="text/css">
+		@media only screen and (min-width: 200px) and (max-width: 883px) {
+			.img-logo {
+				width: 48px;
+				height: 48px;
+			}
+
+			.logo {
+				width: 70%;
+				float: left;
+				position: absolute;
+				top: 3px;
+				z-index: 1;
+			}
+
+			.txt-logo {
+				height: 48px !important;
+				width: 200px !important;
+			}
+
+			.txt-logo-small {
+				display: none !important;
+			}
+
+			.is-img {
+				background: url(./images/building.jpg)no-repeat 0px 0px;
+				width: 100%;
+
+				/* background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover; */
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="header-nav">
+
+			<div class="container">
+
+				<div class="logo">
+					<img width="15%" height="10%" src="images/logohuajin.png" style="float: left" class="img-logo">
+					<h1><a href="index.html" class="txt-logo">
+							KS-Global <span class="txt-logo-small">We help you in your success</span> </a></h1>
+				</div>
+				<div class="navigation">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"> </span>
+								<span class="icon-bar"> </span>
+								<span class="icon-bar"> </span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+								<li><a href="about.html">About</a></li>
+								<!--<li class="dropdown">-->
+								<!--<a href="typo.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
+								<!--<ul class="dropdown-menu">-->
+								<!--<li><a href="icons.html">Font Icons</a></li>-->
+								<!--<li><a href="typo.html">Typo</a></li>-->
+								<!---->
+								<!--</ul>-->
+								<!--</li>-->
+
+								<li><a href="blog.html">services</a></li>
+								<!--<li><a href="gallery.html">Gallery</a></li>-->
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+							<div class="clearfix"> </div>
+						</div><!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- script-for-menu -->
+	<script>
+		$("span.menu").click(function () {
+			$(".top-nav ul").slideToggle("slow", function () {});
+		});
+	</script>
+	<!-- script-for-menu -->
+	<div class="banner">
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			$(function () {
+				$("#slider").responsiveSlides({
+					auto: true,
+					nav: true,
+					speed: 500,
+					namespace: "callbacks",
+					pager: true,
 				});
 			});
-</script>
-<!--/script-->
-</head>
-<body>
-<!--header-->
-<div class="header">
-<div class="header-nav">
+		</script>
+		<div class="slider">
 
-	<div class="container">
-
-		<div class="logo" >
-			<img width="15%" height="10%" src="images/logohuajin.png" style="float: left" >
-			<h1><a href="index.html">
-			KS-Global <span>We help you in your success</span> </a></h1>
+			<div class="container">
+				<ul class="rslides" id="slider">
+					<li>
+						<div class="banner-info">
+							<h3>華晋グローバル株式会社</h3>
+							<p>お客様のご満足を得られるよう日々努力を重ねております</p>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<h3>KS-Global Co.,Ltd.</h3>
+							<p>The Leading Comepany Delivering Services of The Highest Quality</p>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<h3>华晋国际股份有限公司</h3>
+							<p>用专业的服务换取客户的满意，与客户一同走向成功</p>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="navigation">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header">
-					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-						<span class="icon-bar"> </span>
-					  </button>
-					</div>
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					  <ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-						<li><a href="about.html">About</a></li>
-						<!--<li class="dropdown">-->
-								<!--<a href="typo.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
-								 <!--<ul class="dropdown-menu">-->
-									<!--<li><a href="icons.html">Font Icons</a></li>-->
-									<!--<li><a href="typo.html">Typo</a></li>-->
-									<!---->
-								<!--</ul>-->
-							 <!--</li>-->
-
-						<li><a href="blog.html">services</a></li>
-						<!--<li><a href="gallery.html">Gallery</a></li>-->
-						<li><a href="contact.html">Contact Us</a></li>
-					  </ul>
-			  <div class="clearfix"> </div>
-			</div><!-- /.navbar-collapse -->
-		</nav>
-	</div>
-	</div>
-	</div>
-</div>
-			  <!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(".top-nav ul").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->
-<div class="banner">
-<script src="js/responsiveslides.min.js"></script>
- <script>
-    $(function () {
-      $("#slider").responsiveSlides({
-      	auto: true,
-      	nav: true,
-      	speed: 500,
-        namespace: "callbacks",
-        pager: true,
-      });
-    });
-  </script>
-<div class="slider">
-	
-		   <div class="container">
-			  <ul class="rslides" id="slider">
-				 <li>	          
-					<div class="banner-info">
-						<h3>華晋グローバル株式会社</h3>
-						<p>お客様のご満足を得られるよう日々努力を重ねております</p>
-					</div>
-				 </li>
-				 <li>	          
-					 <div class="banner-info">
-						<h3>KS-Global Co.,Ltd.</h3>
-						<p>The Leading Comepany Delivering Services of The Highest Quality</p>
-					</div>
-				 </li>
-				 <li>	          
-					 <div class="banner-info">
-						<h3>华晋国际股份有限公司</h3>
-						<p>用专业的服务换取客户的满意，与客户一同走向成功</p>
-					</div>
-				 </li>
-			  </ul>
-		  </div>
-</div>
 
 
-</div>	
-<!--/header-->	
-<div class="banner-bottom-strip-w3ls-agile">
-	<div class="container">
-		<h3>About our company</h3>
-		<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..</p>-->
+	</div>
+	<!--/header-->
+	<div class="banner-bottom-strip-w3ls-agile">
+		<div class="container">
+			<h3>About our company</h3>
+			<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took..</p>-->
 			<p style="color: white">華晋グローバル株式会社のホームページをご覧頂きありがとうございます。
 				私たちは、人と情報を結ぶコーディネイターとして先進のテクノロジーの構築、提案、納入、保守を目的の専門会社として事業展開しております。
 				多様化するニーズに即応し、高度な技術とノウハウを提供することにより、お客様のご満足を得られるよう日々努力を重ねております。
 				日本と世界をつなぐために、現在と未来をつなぐために、時代を先駆けて歩み続ける会社を目指しています。
 				今後とも何卒ご支援ご愛顧を賜りますようお願い申し上げます。</p>
-	</div>
-</div>	
-<!--<div class="welcome-wthree-agileinfo">-->
-	<!--<div class="container">-->
-		<!--<h3>Welcome</h3>-->
-		<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..</p>-->
-	<!--</div>-->
-<!--</div>-->
-<!--works start here-->
-<!--<div class="work w3layouts-agileits">-->
-	<!--<div class="container">-->
-		<!--<div class="work-main">-->
-			   <!--<div class="col-md-6 work-wrapper">		-->
-							<!--<a href="images/a1.jpg" class="b-link-stripe b-animate-go  swipebox"  title="KS-Global">-->
-						     <!--<img src="images/a1.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i> </h4>-->
-						  		<!--</div></a>-->
-						  									<!--<a href="images/a3.jpg" class="b-link-stripe b-animate-go  swipebox"  title="KS-Global">-->
-						     <!--<img src="images/a3.jpg" alt="" class="img-responsive"><div class="b-wrapper1"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i></h4>-->
-						  		<!--</div></a>-->
-                         <!--<div class="work-details">-->
-					   	  <!--<h3><i class="glyphicon glyphicon-chevron-up"> </i>Sed perspiciatis</h3>-->
-					   	 <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industryan unknown printer took.</p>-->
-					   <!--</div>-->
-			   <!--</div>-->
-			   <!--<div class="col-md-6 work-wrapper">		-->
-							<!--<a href="images/a2.jpg" class="b-link-stripe b-animate-go  swipebox"  title="KS-Global">-->
-						     <!--<img src="images/a2.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i></h4>-->
-						  		<!--</div></a>-->
-						  					   <!--<div class="work wrk1">		-->
-                         <!--<div class="work-details wrk">-->
-					   	  <!--<h3><i class="glyphicon glyphicon-chevron-up"> </i>Sed perspiciatis</h3>-->
-					   	 <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>-->
-					   <!--</div>-->
-			   <!--</div>-->
-			   <!--</div>-->
-
-			<!--<div class="clearfix"> </div>-->
-		<!--</div>-->
-	<!--</div>-->
-<!--</div>-->
-<link rel="stylesheet" href="css/swipebox.css">
-	<script src="js/jquery.swipebox.min.js"></script> 
-	    <script type="text/javascript">
-			jQuery(function($) {
-				$(".swipebox").swipebox();
-			});
-</script>
-<!--works end here-->
-<!--effect-gird-->
-<div class="container">
-<div class="grid wthree-agileinfo">
-	<h4>Our Works</h4>
-					<figure class="effect-julia">
-						<img src="images/psend.jpg" alt="img21"/>
-						<figcaption>
-							<h3>IT技術者紹介・派遣</h3>
-							<div>
-									<p>日本語N2以上、開発経験3年以上</p>
-								
-							</div>
-							<a href="blog.html">View more</a>
-						</figcaption>
-					</figure>
-					<figure class="effect-julia">
-						<img src="images/pdesign.jpg" alt="img22"/>
-						<figcaption>
-							<h3>システム開発や構築</h3>
-							<div>
-									<p>システム開発や構築に関するコンサルティング</p>
-								
-							</div>
-							<a href="blog.html">View more</a>
-						</figcaption>			
-					</figure>
-					
-					<figure class="effect-julia">
-						<img src="images/psoft.jpg" alt="img21"/>
-						<figcaption>
-							<h3>ソフトウェア委託</span></h3>
-							<div>
-								<p>ソフトウェア・アプリケーションの委託及び自主開発</p>
-							
-							</div>
-							<a href="blog.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-julia">
-						<img src="images/pleave.jpeg" alt="img22"/>
-						<figcaption>
-							<h3>オフショア開発</span></h3>
-							<div>
-								<p>中国の大連と上海に開発拠点を持っています</p>
-								<p>日本の開発案件を中国の単価で受託可能です</p>
-							</div>
-							<a href="blog.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-julia">
-						<img src="images/pbpo.jpg" alt="img22"/>
-						<figcaption>
-							<h3>国際的業務に携わる人材の紹介・派遣</h3>
-							<div>
-									<p>翻訳業務 (英語、日本語、中国語</p>
-									<p>BPO</p>
-								
-							</div>
-							<a href="blog.html">View more</a>
-						</figcaption>			
-					</figure>
-										<figure class="effect-julia">
-						<img src="images/p5.jpg" alt="img22"/>
-						<figcaption>
-						<h3>AI ・ IOT事業</h3>
-							<div>
-								<p>日本IOT　AI国際交流会を設立</p>
-								
-							</div>
-							<a href="blog.html">View more</a>
-						</figcaption>			
-					</figure>
-					<div class="clearfix"> </div>
-					</div>
-</div>
-<!--/effect-gird-->
-<div class="index-services w3l-agileits">
-	<div class="container">
-		<h4>Succeed With Us</h4>
-		<div class="col-md-6 is-text">
-			<h3>得意分野</h3>
-			<p><span style="color: #00bcd4">●</span>　WEB系システム開発（JAVA　.NETなど）</p>
-			<p><span style="color: #00bcd4">●</span>　スマホについて技術</p>
-			<p><span style="color: #00bcd4">●</span>　上流工程対応</p>
-			<p><span style="color: #00bcd4">●</span>　AI IOT事業</p>
-			<div class="selected">
-				<h3 class="selected-info">沿　革</h3>
-                <i class="glyphicon glyphicon-chevron-right"><span>2018.04.01 会社住所を東京都住友ビルに移転</span></i>
-				<i class="glyphicon glyphicon-chevron-right"><span>2017.03.01 IOT事業に進む</span></i>
-				<i class="glyphicon glyphicon-chevron-right"><span>2016.01.01 東京営業所設立</span></i>
-				<i class="glyphicon glyphicon-chevron-right"><span>2015.12.18 華晋グローバル株式会社　ホームページ公開</span></i>
-				<i class="glyphicon glyphicon-chevron-right"><span>2015.08.18 華晋グローバル株式会社成立</span></i>
-			</div>
 		</div>
-		<div class="col-md-6 is-img">
-	
-			
-			<!--<ul>-->
+	</div>
+	<!--<div class="welcome-wthree-agileinfo">-->
+	<!--<div class="container">-->
+	<!--<h3>Welcome</h3>-->
+	<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--works start here-->
+	<!--<div class="work w3layouts-agileits">-->
+	<!--<div class="container">-->
+	<!--<div class="work-main">-->
+	<!--<div class="col-md-6 work-wrapper">		-->
+	<!--<a href="images/a1.jpg" class="b-link-stripe b-animate-go  swipebox"  title="KS-Global">-->
+	<!--<img src="images/a1.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i> </h4>-->
+	<!--</div></a>-->
+	<!--<a href="images/a3.jpg" class="b-link-stripe b-animate-go  swipebox"  title="KS-Global">-->
+	<!--<img src="images/a3.jpg" alt="" class="img-responsive"><div class="b-wrapper1"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i></h4>-->
+	<!--</div></a>-->
+	<!--<div class="work-details">-->
+	<!--<h3><i class="glyphicon glyphicon-chevron-up"> </i>Sed perspiciatis</h3>-->
+	<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industryan unknown printer took.</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--<div class="col-md-6 work-wrapper">		-->
+	<!--<a href="images/a2.jpg" class="b-link-stripe b-animate-go  swipebox"  title="KS-Global">-->
+	<!--<img src="images/a2.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i></h4>-->
+	<!--</div></a>-->
+	<!--<div class="work wrk1">		-->
+	<!--<div class="work-details wrk">-->
+	<!--<h3><i class="glyphicon glyphicon-chevron-up"> </i>Sed perspiciatis</h3>-->
+	<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+
+	<!--<div class="clearfix"> </div>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+	<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+	<!--works end here-->
+	<!--effect-gird-->
+	<div class="container">
+		<div class="grid wthree-agileinfo">
+			<h4>Our Works</h4>
+			<figure class="effect-julia">
+				<img src="images/psend.jpg" alt="img21" />
+				<figcaption>
+					<h3>IT技術者紹介・派遣</h3>
+					<div>
+						<p>日本語N2以上、開発経験3年以上</p>
+
+					</div>
+					<a href="blog.html">View more</a>
+				</figcaption>
+			</figure>
+			<figure class="effect-julia">
+				<img src="images/pdesign.jpg" alt="img22" />
+				<figcaption>
+					<h3>システム開発や構築</h3>
+					<div>
+						<p>システム開発や構築に関するコンサルティング</p>
+
+					</div>
+					<a href="blog.html">View more</a>
+				</figcaption>
+			</figure>
+
+			<figure class="effect-julia">
+				<img src="images/psoft.jpg" alt="img21" />
+				<figcaption>
+					<h3>ソフトウェア委託</span></h3>
+					<div>
+						<p>ソフトウェア・アプリケーションの委託及び自主開発</p>
+
+					</div>
+					<a href="blog.html">View more</a>
+				</figcaption>
+			</figure>
+			<figure class="effect-julia">
+				<img src="images/pleave.jpeg" alt="img22" />
+				<figcaption>
+					<h3>オフショア開発</span></h3>
+					<div>
+						<p>中国の大連と上海に開発拠点を持っています</p>
+						<p>日本の開発案件を中国の単価で受託可能です</p>
+					</div>
+					<a href="blog.html">View more</a>
+				</figcaption>
+			</figure>
+			<figure class="effect-julia">
+				<img src="images/pbpo.jpg" alt="img22" />
+				<figcaption>
+					<h3>国際的業務に携わる人材の紹介・派遣</h3>
+					<div>
+						<p>翻訳業務 (英語、日本語、中国語</p>
+						<p>BPO</p>
+
+					</div>
+					<a href="blog.html">View more</a>
+				</figcaption>
+			</figure>
+			<figure class="effect-julia">
+				<img src="images/p5.jpg" alt="img22" />
+				<figcaption>
+					<h3>AI ・ IOT事業</h3>
+					<div>
+						<p>日本IOT　AI国際交流会を設立</p>
+
+					</div>
+					<a href="blog.html">View more</a>
+				</figcaption>
+			</figure>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--/effect-gird-->
+	<div class="index-services w3l-agileits">
+		<div class="container">
+			<h4>Succeed With Us</h4>
+			<div class="col-md-6 is-text">
+				<h3>得意分野</h3>
+				<p><span style="color: #00bcd4">●</span>　WEB系システム開発（JAVA　.NETなど）</p>
+				<p><span style="color: #00bcd4">●</span>　スマホについて技術</p>
+				<p><span style="color: #00bcd4">●</span>　上流工程対応</p>
+				<p><span style="color: #00bcd4">●</span>　AI IOT事業</p>
+				<div class="selected">
+					<h3 class="selected-info">沿　革</h3>
+					<i class="glyphicon glyphicon-chevron-right"><span>2018.04.01 会社住所を東京都住友ビルに移転</span></i>
+					<i class="glyphicon glyphicon-chevron-right"><span>2017.07.01  Cloud Service事業部設立</span></i>
+					<i class="glyphicon glyphicon-chevron-right"><span>2017.03.01  AI・IoT事業部設立</span></i>
+					<i class="glyphicon glyphicon-chevron-right"><span>2016.01.01 東京営業所設立</span></i>
+					<i class="glyphicon glyphicon-chevron-right"><span>2015.12.18 華晋グローバル株式会社　ホームページ公開</span></i>
+					<i class="glyphicon glyphicon-chevron-right"><span>2015.08.18 華晋グローバル株式会社成立</span></i>
+				</div>
+			</div>
+			<div class="col-md-6 is-img">
+
+
+				<!--<ul>-->
 				<!--<li><i>1</i> A New Division</li>-->
 				<!--<li><i>2</i>  Business Growth </li>-->
 				<!--<li><i>3</i> Our Awards</li>-->
 				<!--<li><i>4</i> Risk Management</li> -->
 				<!--<li><i>5</i> Promotion</li>-->
-			<!--</ul>-->
+				<!--</ul>-->
+			</div>
 		</div>
 	</div>
-</div>
-<!--footer-->
- <div class="footer w3layouts-agileits">
-			 <div class="container">				 	
-				 <div class="col-md-3 ftr_navi ftr">
-					 <h3>Navigation</h3>
-					 <ul>
-						 <li><a href="index.html">Home</a></li>
-						 <li><a href="about.html">About</a></li>
-						 <!--<li><a href="gallery.html">Gallery</a></li>						-->
-						 <li><a href="blog.html">services</a></li>
-						 <li><a href="contact.html">Contact</a></li>
-					 </ul>
-				 </div>
-				  <div class="col-md-3 get_in_touch ftr">
-					  <h3>Get In Touch</h3>
-                      <p>〒163-0222 <br/>東京都新宿区西新宿2-6-1新宿住友ビル22F</p>
-					  <p>+81 03-6876-0018</p>
-					  <a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
-				 </div>
-				 <div class="col-md-3 ftr_navi ftr footer-grids w3l-agileits">
+	<!--footer-->
+	<div class="footer w3layouts-agileits">
+		<div class="container">
+			<div class="col-md-3 ftr_navi ftr">
+				<h3>Navigation</h3>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<!--<li><a href="gallery.html">Gallery</a></li>						-->
+					<li><a href="blog.html">services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 get_in_touch ftr">
+				<h3>Get In Touch</h3>
+				<p>〒163-0222 <br />東京都新宿区西新宿2-6-1新宿住友ビル22F</p>
+				<p>+81 03-6876-0018</p>
+				<a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
+			</div>
+			<div class="col-md-3 ftr_navi ftr footer-grids w3l-agileits">
 
-					 <h3>Join Us</h3>
-					 <p>We need you and you can send your resume to the email here </p><p>
-					 </p><form action="#" method="post">		 
-							<input type="text" class="text" name="email"value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
-							<input type="submit" value="Go">					 
-				     </form>
-				
-				 </div>
-				 <div class="col-md-3 ftr-logo">
-					 <a href="index.html"><h2>KS-Global</h2></a>
-                     <p>© 2018 KS-Global. All rights  Reserved </p>
-				 </div>
-				<div class="clearfix"> </div>
-			 </div>
-		  </div>
-<!--footer-->
-		 <!---End-container---->
-		 <!---->
-<script type="text/javascript">
-		$(document).ready(function() {
-				/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-				*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!----> 
+				<h3>Join Us</h3>
+				<p>We need you and you can send your resume to the email here </p>
+				<p>
+				</p>
+				<form action="#" method="post">
+					<input type="text" class="text" name="email" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
+					<input type="submit" value="Go">
+				</form>
+
+			</div>
+			<div class="col-md-3 ftr-logo">
+				<a href="index.html">
+					<h2>KS-Global</h2>
+				</a>
+				<p>© 2018 KS-Global. All rights Reserved </p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--footer-->
+	<!---End-container---->
+	<!---->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+		});
+	</script>
+	<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!---->
 </body>
+
 </html>

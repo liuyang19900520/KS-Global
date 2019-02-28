@@ -48,7 +48,32 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
             });
         });
     </script>
+	<style type="text/css">
+		@media only screen and (min-width: 240px) and (max-width: 883px) {
+			.img-logo {
+				width: 48px;
+				height: 48px;
+			}
 
+			.logo {
+				width: 70%;
+				float: left;
+				position: absolute;
+				top: 3px;
+				z-index: 1;
+			}
+
+			.txt-logo {
+				height: 48px !important;
+				width: 200px !important;
+			}
+
+			.txt-logo-small {
+				display: none !important;
+			}
+
+		}
+	</style>
 
     <!--/script-->
 </head>
@@ -58,9 +83,9 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
     <div class="header-nav">
         <div class="container">
             <div class="logo">
-                <img width="15%" height="10%" src="images/logohuajin.png" style="float: left">
-                <h1><a href="index.html">
-                    KS-Global <span>We help you in your success</span> </a></h1>
+                <img width="15%" height="10%" src="images/logohuajin.png" style="float: left" class="img-logo">
+                <h1><a href="index.html" class="txt-logo">
+                        KS-Global <span class="txt-logo-small">We help you in your success</span> </a></h1>
             </div>
             <div class="navigation">
                 <nav class="navbar navbar-default">

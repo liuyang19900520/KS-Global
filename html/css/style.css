@@ -419,11 +419,11 @@ position: absolute;
 	min-height: 430px;
     height: 70%;
 
-    /*background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-webkit-background-size: cover;*/
-    /*-ms-background-size: cover;*/
-    /*-o-background-size: cover;*/
+    /* background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover; */
 }
 .is-img ul {
   margin: 0;
@@ -1543,11 +1543,13 @@ div#portfolio {
 }
 .b-wrapper i.glyphicon.glyphicon-zoom-in {
   color: #fff;
-  font-size: 2.5em;
+	font-size: 2.5em;
+	display: inline;
 }
 .b-wrapper1 i.glyphicon.glyphicon-zoom-in {
   color: #fff;
-  font-size: 2.5em;
+	font-size: 2.5em;
+	display: inline;
 }
 .b-link-stripe .b-wrapper1{
 	position:absolute;
