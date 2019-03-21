@@ -1705,24 +1705,8 @@ p.sub.two {
 .header ul.nav.navbar-nav.navbar-left{
     margin-left: 14%;
 }
-.banner-w3lstext p { 
-    width: 65%; 
-}
-.banner { 
-    min-height: 600px; 
-}
-.banner-text {
-    margin-top: 10em;
-}
-.newsletter input[type="text"] {
-    width: 83%;
-} 
-.banner-w3lstext h2, .banner-w3lstext h3 {
-    font-size: 2.7em; 
-}
-.agile_banner_bottom1_right {
-    padding: 2em 1em 2em 1em;
-}
+
+
 } 
 @media(max-width:991px){
 .header .navbar-nav li { 
@@ -1731,9 +1715,7 @@ p.sub.two {
 .header ul.nav.navbar-nav.navbar-left{
     margin-left: 5%;
 }
-.banner-w3lstext p {
-    width: 80%;
-}
+
 .welcome-w3right {
     margin-top: 1em;
 }
@@ -1774,9 +1756,7 @@ p.sub.two {
 .filtr-item {
     padding:0.5em;
 }
-.banner {
-    min-height: 560px;
-}
+
 .features {
     padding: 3em 0;
 }
@@ -1920,21 +1900,11 @@ p.sub.two {
     font-size: 1.1em; 
 	padding:.2em 0;
 }
-.header .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border: none;
-    background: #000;
-}
-.header .navbar-default .navbar-toggle {
-    border-color: #ffae00;
-    background: #ffae00;
-    margin:8px 0 0;
-}
+
 .header.navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
-.header .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #ffae00;
-} 
+ 
 .header .navbar-nav > li {
     margin: 0;
     display: block;
@@ -1968,9 +1938,7 @@ div#bs-example-navbar-collapse-1 {
     margin: 0.5em 0 1.3em;
     text-align: center;
 }
-.banner {
-    min-height: 570px;
-}
+
 .banner-text {
     margin-top: 8em;
 }
@@ -2029,9 +1997,7 @@ div#bs-example-navbar-collapse-1 {
 .banner-text {
     margin-top: 6em;
 }
-.banner {
-    min-height: 500px;
-}
+
 .wthree_testimonials_grid {
     padding: 3em 2em 2em;
 }
@@ -2067,9 +2033,7 @@ div#bs-example-navbar-collapse-1 {
     width: 85%;
     font-size: 1em;
 }
-.banner {
-    min-height: 500px;
-}
+
 .banner-text {
     margin-top: 6em;
 }
@@ -2124,9 +2088,7 @@ div#bs-example-navbar-collapse-1 {
 .banner-text {
     margin-top: 4em;
 }
-.banner {
-    min-height: 420px;
-}
+
 .w3ls-heading h3, .w3ls-heading h2, .wthree_testimonials_grid h4 {
     font-size: 2.2em;
 }
@@ -2256,9 +2218,7 @@ ul.simplefilter {
 .banner-w3lstext h2, .banner-w3lstext h3 {
     font-size: 1.5em;
 }
-.banner {
-    min-height: 360px;
-}
+
 .banner-w3lstext p {
     width: 95%;
     font-size: 0.9em;
