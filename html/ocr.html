@@ -36,12 +36,20 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 	<!-- /js -->
 	<!--fonts-->
 	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-	<link href="/html/afos/css/style.css" type="text/css" rel="stylesheet" media="all">
+
 	<link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'
 		rel='stylesheet' type='text/css'>
 	<link
 		href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
 		rel='stylesheet' type='text/css'>
+
+	<!-- <link href="/html/afos/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+	
+	<link href="/html/afos/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="/html/afos/css/flexslider.css" type="text/css" media="all" property="" />
+	<!-- //Custom Theme files -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
 	<!--/fonts-->
 	<!--script-->
 	<script type="text/javascript">
@@ -56,59 +64,43 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 	</script>
 	<!--/script-->
 	<style type="text/css">
-		.youtube {
-			width: 100%;
-			height: 450px;
-		}
-
-		.index_product_box .container {
+		.news-grid {
+			background: #FFF;
+			border: 1px solid #f2f2f2;
+			width: 32%;
+			padding: 0;
 			text-align: center;
-			padding: 60px 0;
+			border-bottom: 4px solid #e0e0e0;
+			border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-o-border-radius: 10px;
+			-moz-border-radius: 10px;
+			float: left;
 		}
 
-		.index_product ul {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			list-style: none;
-		}
-
-		.index_product ul li {
-			border-right: 2px solid #f3f6f9;
-			border-bottom: 2px solid #f3f6f9;
-			width: 33.3%;
-			box-sizing: border-box;
-			flex-shrink: 0;
-			padding: 50px 30px 80px;
-			min-width: 322px;
+		.news-desc {
+			padding: 5%;
 			position: relative;
-			list-style: none;
-			text-align: center;
 		}
 
-		.index_product ul li img {
-			width: 100px;
-			height: 100px;
-			margin-bottom: 20px;
+		.news-grid img {
+			max-width: 100%;
+			display: block;
+			width: 100%;
+			padding-top: 20%;
+			padding-right: 20%;
+			padding-left: 20%;
+			padding-bottom: 10%;
+			border-radius: 10px 10px 0px 0px;
+			-webkit-border-radius: 10px 10px 0px 0px;
+			-moz-border-radius: 10px 10px 0px 0px;
+			-o-border-radius: 10px 10px 0px 0px;
 		}
 
-		.index_product ul li h4 {
-			font-size: 20px;
-			font-weight: bold;
-			padding-bottom: 20px;
-			color: #16325c;
-		}
-
-		.index_product ul li a {
-			color: #16325c;
-			padding: 6px 20px;
-			border-radius: 50px;
-			position: absolute;
-			bottom: 30px;
-			left: 50%;
-			transform: translateX(-50%);
-			border: 1px solid #16325c;
-			font-weight: bold;
+		.news-grid p {
+			font-size: 13px;
+			color: #7f8c8c;
+			line-height: 1.6em;
 		}
 
 		@media only screen and (min-width: 240px) and (max-width: 883px) {
@@ -134,62 +126,12 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 				display: none !important;
 			}
 
-			.youtube {
-				width: 100%;
-				height: 190px;
+			.news-grid {
+				width: 92%;
+				float: none;
+				margin: 0 auto;
 			}
 
-
-			.index_product_box .container {
-				text-align: center;
-				padding: 60px 0;
-			}
-
-			.index_product ul {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: center;
-				list-style: none;
-			}
-
-			.index_product ul li {
-				width: 80%;
-				border-right: 0px;
-				box-sizing: border-box;
-				flex-shrink: 0;
-				min-width: 322px;
-				position: relative;
-				text-align: center;
-				border-bottom: 2px solid rgb(243, 246, 249);
-				padding: 50px 30px 80px;
-				list-style: none;
-			}
-
-			.index_product ul li img {
-				width: 100px;
-				height: 100px;
-				margin-bottom: 20px;
-				border-style: none;
-			}
-
-			.index_product ul li h4 {
-				font-size: 20px;
-				font-weight: bold;
-				padding-bottom: 20px;
-				color: #16325c;
-			}
-
-			.index_product ul li a {
-				color: #16325c;
-				padding: 6px 20px;
-				border-radius: 50px;
-				position: absolute;
-				bottom: 30px;
-				left: 50%;
-				transform: translateX(-50%);
-				border: 1px solid #16325c;
-				font-weight: bold;
-			}
 
 		}
 	</style>
@@ -242,81 +184,54 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 	<!--inner-page-about-->
 	<div class="single w3layouts-agileits">
 		<div class="container">
-			<h3>Cloud CC Serivce</h3>
+			<h3>Smart OCR </h3>
 			<br>
 			<br>
-			<iframe class="youtube" src="https://www.youtube.com/embed/tMDv_tD4tVw" frameborder="0"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
+			<div class="wrap">
+				<div class="row">
+					<div class="col-lg-3 news-grid">
+						<img src="images/ocr1.png" alt="">
+						<div class="news-desc">
+							<h2>文字認識システム</h2>
+							<br>
+							<p>ディープラーニング（CNN、DNN、LSTM等）を用いたネットスマイル独自の人工知能OCRプログラムにより、文字認識精度が向上します</p>
 
 
-			<div class="index_product">
-				<ul>
-					<li>
-						<img src="images/cloudcc/sale.png" alt="">
-						<h4>Sales Cloud</h4>
-						<p>
-							顧客の現状把握もスムーズで良好な関係を維持できます。
-							顧客の売上推移を把握し、訪問前の状況確認を行います。
-							営業担当者・マネージャーの活用が習慣付くように段階に応じたサポートを行います
-						</p>
-						<a href="contact.html">Contact Us</a>
-					</li>
-					<li>
-						<img src="images/cloudcc/market.png" alt="">
-						<h4>Marketing Cloud</h4>
-						<p>
-							営業目標を達成するためには、チーム全体でKGIを設定し、それを達成するために必要なKPIを定め、計測・把握することが重要です。
-							あと何件の受注が足りないのか、またどれくらい売上をアップすればいいのかを把握でき、見たいデータを膨大なCRMのデータから自動で集計し、円グラフやヒートマップなどにより分かり易く見える化します。
+						</div>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-3 news-grid news-grid-middle">
+						<img src="images/ocr2.png" alt="">
+						<div class="news-desc">
+							<h2>非定型レイアウト対応</h2>
+							<br>
+							<p>請求書等のフォーマットを分析してテンプレートとして蓄積することで、反復的な取引先のデータは、より早く正確に読み取ることが出来るようになります。</p>
 
-						</p>
-						<a href="contact.html">Contact Us</a>
-					</li>
-					<li>
-						<img src="images/cloudcc/service.png" alt="">
-						<h4>Service Cloud</h4>
-						<p>
-							すべてのチャネルでサービスの問題を捉え、ケース割り当てワークフローを使用して効率を最適化し、
-							問題を迅速に解決し、問題の優先順位に基づいて適切なサポートチームまたはエージェントにケースを追跡、割り当て、および監視します。
-						</p>
-						<a href="contact.html">Contact Us</a>
-					</li>
-					<li>
-						<img src="images/cloudcc/data_analysis.png" alt="">
-						<h4>Data Analysis</h4>
-						<p>
-							統計解析、数理モデル構築、各種機械学習を利用し、サイトプロダクトのデータ解析による、データドリブンな意思決定（サイト／機能改善）モデル構築に向けたデータ整備、
-							予測モデリングや最適化の実装を内製化していくためのポジションです。
-						</p>
-						<a href="contact.html">Contact Us</a>
-					</li>
-					<li>
-						<img src="images/cloudcc/mobile_app.png" alt="">
-						<h4>Mobile App</h4>
-						<p>
-							CloudCCモバイルアプリ内でリードを変換し、セールスパイプラインを追跡し、同僚とコラボレーションし、
-							外出中でもより多くの取引を成立させることで、ビジネスを常に把握し、リアルタイムの重要情報にアクセスし、顧客とつながります。 。
-						</p>
-						<a href="contact.html">Contact Us</a>
-					</li>
-					<li>
-						<img src="images/cloudcc/platform.png" alt="">
-						<h4>Platform</h4>
-						<p>
-							共通のcloud　platformで、
-							まずはお客様の運用状況、目的、体制などに合わせて専属トレーナーがヒアリングを行い、お客様に合わせたcloudCCの導入・運用・活用までの
-							最適な利用プランをご提案します。さらに、中・長期的な課題の改善提案も実施することで皆様の成功をご支援します。
-						</p>
-						<a href="contact.html">Contact Us</a>
-					</li>
-				</ul>
+
+						</div>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-3 news-grid">
+						<img src="images/ocr3.png" alt="">
+						<div class="news-desc">
+							<h2>継続的機械学習システム</h2>
+							<br>
+							<p>AIスキャンロボ®の管理画面上で、人間がテキストを修正することにより、文字認識精度が継続的に向上していきます。</p>
+
+
+						</div>
+					</div><!-- /.col-lg-4 -->
+				</div>
 			</div>
+
+			<br>
+			<br>	
+			<br>
+			<br>
+
+
+
 
 
 		</div>
-
-
-
 
 	</div>
 	<!--/inner-page-about-->
