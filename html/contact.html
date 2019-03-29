@@ -37,9 +37,10 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
     <!--fonts-->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 
-    <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet'
-        type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
         rel='stylesheet' type='text/css'>
     <!--/fonts-->
     <!--script-->
@@ -59,7 +60,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
         #map {
             height: 430px;
             width: 50%;
-          
+
         }
     </style>
 
@@ -110,7 +111,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                 <div class="navigation">
                     <nav class="navbar navbar-default">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"> </span>
                                 <span class="icon-bar"> </span>
@@ -136,10 +138,9 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
     <!-- script-for-menu -->
     <script>
         $("span.menu").click(function () {
-        $(".top-nav ul").slideToggle("slow", function () {
+            $(".top-nav ul").slideToggle("slow", function () {});
         });
-    });
-</script>
+    </script>
     <!-- script-for-menu -->
     <div class="banner banner5">
     </div>
@@ -147,7 +148,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
     <div class="contact w3layouts-agileits">
         <div class="container">
             <h3>Contact</h3>
-            <div class="who_are wthree-agile">
+            <!-- <div class="who_are wthree-agile">
                 <div class="container">
                     <h5>採用情報①　SE、PG 募集</h5>
                     <table class="table" style="margin: 0px">
@@ -234,36 +235,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                         </tbody>
                     </table>
                 </div>
-            </div>
-            <div class="who_are wthree-agile">
-                <div class="container">
-                    <h5>アクセス&コンタクト</h5>
-                    <table class="table" style="margin: 0px">
-                        <tbody>
-                            <tr>
-                                <td style="width:20%"><strong>
-                                        【所在地案内】</strong></td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">〒163-0222 東京都新宿区西新宿2-6-1新宿住友ビル22階</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%"><strong>【最寄り駅】</strong></td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">「都庁前駅」A2出口徒歩2分(大江戸線)</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">「西新宿駅」2番出口徒歩4分(丸ノ内線)</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">「新宿駅」西口徒歩7分(JR線,小田急線,京王線)</td>
-                            </tr>
+            </div> -->
 
-                        </tbody>
-                    </table>
-                </div>
-            </div>
             <div class="contact-main">
                 <div class="contact-top">
                     <div id="map" class="col-md-6 contact-top-left-wthree-agile">
@@ -275,18 +248,22 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                     <!-- google maps by liuyang-->
                     <script>
                         function initMap() {
-                        var uluru = {lat: 35.691297, lng: 139.692616};
-                        var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 16,
-                            center: uluru
-                        });
-                        var marker = new google.maps.Marker({
-                            position: uluru,
-                            map: map
-                        });
-                    }
-                </script>
-                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO2jFUiD0IB_PIFq5MU2brvCcsBvS-5Bo&callback=initMap">
+                            var uluru = {
+                                lat: 35.691297,
+                                lng: 139.692616
+                            };
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 16,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO2jFUiD0IB_PIFq5MU2brvCcsBvS-5Bo&callback=initMap">
                     </script>
                     <!-- google maps by liuyang end-->
                     <div class="col-md-6 contact-top-right-wthree-agile">
@@ -306,6 +283,35 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                     <div class="clearfix"></div>
                 </div>
             </div>
+            <div class="who_are wthree-agile">
+                <div class="container">
+                    <h5>アクセス&コンタクト</h5>
+                    <table class="table" style="margin: 0px">
+                        <tbody>
+                            <tr>
+                                <td style="width:20%"><strong>
+                                        【所在地案内】</strong></td>
+                                <td style="width:20%"><strong>【最寄り駅】</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%"></td>
+                                <td style="width:20%">「都庁前駅」A2出口徒歩2分(大江戸線)</td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%">〒163-0222 東京都新宿区西新宿2-6-1新宿住友ビル22階</td>
+                                <td style="width:20%">「西新宿駅」2番出口徒歩4分(丸ノ内線)</td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%"></td>
+                                <td style="width:20%">「新宿駅」西口徒歩7分(JR線,小田急線,京王線)</td>
+
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
     <!--/inner-page-about-->
@@ -318,7 +324,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <!--<li><a href="gallery.html">Gallery</a></li>						-->
-                    <li><a href="blog.html">services</a></li>
+                    <li><a href="blog.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -337,7 +343,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                 <p>
                 </p>
                 <form action="#" method="post">
-                    <input type="text" class="text" name="email" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
+                    <input type="text" class="text" name="email" value="Enter Email" onfocus="this.value = '';"
+                        onblur="if (this.value == '') {this.value = 'Enter Email';}">
                     <input type="submit" value="Go">
                 </form>
 
