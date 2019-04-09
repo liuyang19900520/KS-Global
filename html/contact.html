@@ -52,6 +52,21 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                     scrollTop: $(this.hash).offset().top
                 }, 900);
             });
+
+            var intervalID = setInterval(function () {
+
+                if ($("#map-phone").css("display") == 'block' && $("#map").css("display") == 'none') {
+                    initMapPhone();
+                    window.clearInterval(intervalID);
+
+                }
+                if ($("#map").css("display") == 'block' && $("#map-phone").css("display") == 'none') {
+                    initMap();
+                    window.clearInterval(intervalID);
+                }
+            }, 1000)
+
+
         });
     </script>
     <!--/script-->
@@ -61,6 +76,10 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
             height: 430px;
             width: 50%;
 
+        }
+
+        #map-phone {
+            display: none;
         }
     </style>
 
@@ -89,6 +108,14 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
             }
 
             #map {
+                display: none;
+                height: 300px;
+                width: 100%;
+                margin-bottom: 5%;
+            }
+
+            #map-phone {
+                display: block;
                 height: 300px;
                 width: 100%;
                 margin-bottom: 5%;
@@ -276,8 +303,6 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                                 <input type="submit" value="SUBMIT">
                                 <input type="reset" value="CLEAR">
                             </form>
-
-
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -312,6 +337,30 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                     </table>
                 </div>
             </div>
+
+            <div id="map-phone" class="col-md-6 contact-top-left-wthree-agile">
+
+                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>-->
+                <!--<iframe width="600" height="450" frameborder="0" style="border:0"-->
+                <!--src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJyeSJVZVgGGARI3rAI1UgTWM&key=..." allowfullscreen></iframe>-->
+            </div>
+
+            <script>
+                function initMapPhone() {
+                    var uluru = {
+                        lat: 35.691297,
+                        lng: 139.692616
+                    };
+                    var map = new google.maps.Map(document.getElementById('map-phone'), {
+                        zoom: 16,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
         </div>
     </div>
     <!--/inner-page-about-->
@@ -331,7 +380,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
             <div class="col-md-3 get_in_touch ftr">
                 <h3>Get In Touch</h3>
                 <p>〒163-0222 <br />東京都新宿区西新宿2-6-1新宿住友ビル22F</p>
-                <p>+81 03-6876-0018</p>
+                <p>+81 03 4500 2068</p>
                 <a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
 
             </div>
@@ -353,7 +402,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
                 <a href="index.html">
                     <h2>KS-Global</h2>
                 </a>
-                <p>© 2018 KS-Global. All rights Reserved </p>
+                <p>© 2020 KS-Global. All rights Reserved </p>
             </div>
             <div class="clearfix"></div>
 
