@@ -1,0 +1,395 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KS-Global a Corporate Category Flat Bootstrap Responsive Website Template | About :: w3layouts</title>
+    <!--css-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--/css-->
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="KS-Global Responsive web template, Bootstrap Web Templates, Flat Web Templates,  Android  Compatible web template,
+Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony Ericsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //for-mobile-apps -->
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!-- /js -->
+    <!--fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
+        rel='stylesheet' type='text/css'>
+    <!--/fonts-->
+    <!--script-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        window.οnscrοll = function () {
+            var container = document.getElementById("container");
+            var oDiv = document.getElementById("guide");
+            var height = container.offsetHeight;
+            var top = document.body.scrollTop;
+            if (height - top <= 450) {
+                oDiv.style.top = height - 450 + 'px';
+            } else {
+                oDiv.style.top = top + 100 + 'px';
+            }
+        }
+    </script>
+    <!--/script-->
+    <style type="text/css">
+        @media only screen and (min-width: 240px) and (max-width: 883px) {
+            .img-logo {
+                width: 48px;
+                height: 48px;
+            }
+
+            .logo {
+                width: 70%;
+                float: left;
+                position: absolute;
+                top: 3px;
+                z-index: 1;
+            }
+
+            .txt-logo {
+                height: 48px !important;
+                width: 200px !important;
+            }
+
+            .txt-logo-small {
+                display: none !important;
+            }
+
+            .guide {
+                display: none !important;
+            }
+
+            .pmark {
+                width: 100% !important;
+            }
+
+        }
+    </style>
+    <style>
+        p {
+            color: #999;
+            line-height: 2;
+        }
+
+        .pmark {
+            width: 65%;
+            display: -webkit-flex;
+            /* Safari */
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            flex-direction: column !important;
+        }
+
+        .privacy-out {
+            display: -webkit-flex;
+            /* Safari */
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            flex-direction: row !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-nav">
+            <div class="container">
+                <div class="logo">
+                    <img width="15%" height="10%" src="images/logohuajin.png" style="float: left" class="img-logo">
+                    <h1><a href="index.html" class="txt-logo">
+                            KS-Global <span class="txt-logo-small">We help you in your success</span> </a></h1>
+                </div>
+                <div class="navigation">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"> </span>
+                                <span class="icon-bar"> </span>
+                                <span class="icon-bar"> </span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                                <li class="active"><a href="about.html">About</a></li>
+                                <!--<li class="dropdown">-->
+                                <!--<a href="typo.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
+                                <!--<ul class="dropdown-menu">-->
+                                <!--<li><a href="icons.html">Font Icons</a></li>-->
+                                <!--<li><a href="typo.html">Typo</a></li>-->
+                                <!---->
+                                <!--</ul>-->
+                                <!--</li>-->
+
+                                <li><a href="blog.html">Services</a></li>
+                                <!--<li><a href="gallery.html">Gallery</a></li>-->
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script-for-menu -->
+    <script>
+        $("span.menu").click(function () {
+            $(".top-nav ul").slideToggle("slow", function () {});
+        });
+    </script>
+    <!-- script-for-menu -->
+    <div class="banner banner5">
+    </div>
+    <!--inner-page-about-->
+    <div class="abouts w3layouts-agileits">
+        <div id="container" class="container">
+            <h3>ホームページ公表事項</h3>
+            <div class="privacy-out">
+                <div id="guide" class="about-list guide"
+                    style="width: 35%;padding-bottom: 100%; float: left;margin-top: 30px;">
+                    <ul>
+                        <li><a href="#a1">個人情報保護方針</a></li>
+                        <li><a href="#a2">保有個人データに関する公表事項</a></li>
+                        <li><a href="#a3">個人情報の利用目的</a></li>
+                    </ul>
+                </div>
+                <div class="pmark">
+                    <div>
+                        <div style=" margin-top: 30px">
+                            <h4 id="a1"
+                                style="letter-spacing: 2px;color: #29c0ff;margin-bottom: 0.6em;font-weight: 600;">■
+                                個人情報保護方針</h4>
+                            <p>華晋グローバル株式会社は、人と情報を結ぶコーディネイターとして先進のテクノロジーの構築、提案、納入、保守を目的の専門会社として事業展開しております。
+                                当社は、最高のサービスを提供するために個人情報を最大限活用いたします。ただし、当社が個人情報を取り扱うにあたっては、個人情報を会社の最も尊い財産と考え、可能な限りのセキュリティ対策を講じます。また、当社の役員及び全ての従業者は個人情報保護方針の趣旨を理解すると共にこれを誠実に実行します。
+                            </p>
+                        </div>
+
+                        <div style=" margin-top: 30px">
+                            <p>1.当社は、事業の内容及び規模を考慮した適切な個人情報の取得,利用及び提供を行います。特定された利用目的の達成に必要な範囲を超えた個人情報の取扱いは行いません。また、個人情報の目的外利用が行われないための措置を講じます。
+                            </p>
+                            <p>2.当社は、個人情報の取扱いに関する法令，国が定める指針その他の規範を遵守します。</p>
+                            <p>3.当社は、個人情報の漏えい,滅失又はき損の防止及び是正のための措置を講じます。</p>
+                            <p>4.当社は、苦情及び相談のための窓口を設置し、迅速かつ適切に対応します。</p>
+                            <p>5.当社は、個人情報保護マネジメントシステムを継続的に改善します。</p>
+                        </div>
+                        <div style="float:right; margin-top: 30px">
+                            <p>制定&emsp;2018年8月1日</p>
+                            <p>華晋グローバル株式会社</p>
+                            <p>代表取締役社長&emsp;吉澤&emsp;勁</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div style="margin-top: 30px">
+                            <p style="font-weight: bold;">「個人情報保護方針」に関するお問合せ先</p>
+                            <p>華晋グローバル株式会社「個人情報窓口」</p>
+                            <p>〒105-0013 東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
+                            <p>電話番号：03-4500-2068</p>
+                        </div>
+                    </div>
+
+                    <div style=" margin-top: 50px">
+                        <h4 id="a2" style="letter-spacing: 2px;color: #29c0ff;margin-bottom: 0.6em;font-weight: 600;">■
+                            保有個人データに関する公表事項</h4>
+                        <p style="font-weight: bold;">【事業者及び個人情報保護管理者】</p>
+                        <p>華晋グローバル株式会社</p>
+                        <p>代表取締役社長&emsp;吉澤&emsp;勁</p>
+                        <p>TEL：03-4500-2068</p>
+                    </div>
+                    <div style="  margin-top: 30px">
+                        <p style="font-weight: bold;">【全ての保有個人データの利用目的】</p>
+                        <ul style="color: #999; line-height: 2;">
+                            <li>採用応募者から取得した個人情報<br>
+                                <p>&emsp;採用・選考手続き、応募者への連絡</p>
+                            </li>
+                            <li>採用時に取得した個人情報<br>
+                                <p>&emsp;雇用契約の締結、入社手続き、機密保持の約束、身元保証の約束</p>
+                            </li>
+                            <li>従業者から取得した個人情報<br>
+                                <p>&emsp;社会保障の手続き、経理清算事務、人事管理業務、教育研修、福利厚生業務、給与情報の管理、給与の支払い、労務・税理処理業務、施設等の安全管理の手続き、顧客からの技術者手配の依頼及び契約履行に関する業務、顧客に対するスキルシートの提出
+                                </p>
+                            </li>
+                            <li>取引先から取得した個人情報
+                                <p>&emsp;連絡報告、資料等の送付、当社の商品・サービス・システムの紹介、契約の締結、当社サービスの開発・改善、請求、支払</p>
+                            </li>
+                            <li>問合せにより取得した個人情報
+                                <p>&emsp;問合せの受付・回答、資料等の送付</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="  margin-top: 30px">
+                        <p style="font-weight: bold;">【保有個人データの取扱いに関する苦情の申出先】</p>
+                        <p>〒105-0013 東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
+                        <p>華晋グローバル株式会社「個人情報窓口」</p>
+                        <p>TEL：03-4500-2068</p>
+                    </div>
+                    <div style="  margin-top: 30px">
+                        <p style="font-weight: bold;">【開示等の求めの手続き】</p>
+                        <p>1. 開示等の求めをされる方は、開示等の求めに必要な書類を送付いたしますので、当社「個人情報窓口」までお申し出ください。</p>
+                        <p>2. 開示等の求めには「本人確認の書類」が必要となりますので、下記書類のいずれか1点のコピーをご準備ください。
+                        </p>
+                        <p style="width: 97%; ">
+                            「運転免許証」「パスポート」「写真付き住民基本台帳カード」「個人番号カード（写真が表示されている表面のみ）」「在留カード」「特別永住者証明書」「その他公的機関が発行する写真付き証明書」
+                        </p>
+                        <p style="width: 97%; ">●&emsp;要配慮個人情報が記載されている書類は、記載箇所を黒塗りして送付してください。</p>
+                        <p style="width: 97%; ">●&emsp;本人であることの確認が出来ない場合は、開示等の求めに応じることができません。</p>
+                    </div>
+                    <div>
+                        <p>3. 代理人による求めの場合は、下記書類をご準備ください。</p>
+                        <p style="width: 97%; ">`① 「代理権確認の書類」</p>
+                        <p style="width: 97%; ">●&emsp;未成年の法定代理人による求めの場合</p>
+                        <p style="width: 94%; ">戸籍謄本、住民票（続柄の記載されたもの）、その他法定代理権の確認ができる公的書類のいずれか1点</p>
+                        <p style="width: 97%; ">●&emsp;成年被後見人の法定代理による求めの場合</p>
+                        <p style="width: 94%; ">後見登記等に関する登記事項証明書、その他法定代理権の確認ができる公的書類のいずれか1点</p>
+                        <p style="width: 97%; ">●&emsp;任意代理人による求めの場合</p>
+                        <p style="width: 94%; ">委任状及び本人の印鑑証明書</p>
+                        <p style="width: 97%; ">② 代理人の「本人確認の書類」</p>
+                        <p style="width: 97%; ">③ 開示等の請求等をされる方本人の「本人確認の書類」</p>
+                    </div>
+                    <div >
+                        <p>4. 保有個人データに関する利用目的の通知及び開示の求めに対しては、手数料として1件につき2,000円分の郵便切手が必要です。</p>
+                        <p>5. 「個人情報窓口」に開示等の請求等に必要な書類が到着後、本人確認のために記載されている連絡先へ担当者がご連絡いたします。</p>
+                        <p>6. 本人確認がとれた時点で、開示等の手続きを開始いたします。</p>
+                        <p>7. 手続き開始より2週間以内に、書面でご回答申し上げます。また、当社が開示等の求めに応じることが出来ない場合であっても、その理由を書面でお知らせいたします。</p>
+                    </div>
+                    <div style=" margin-top: 50px; margin-bottom: 20px">
+                        <h4 id="a3" style="letter-spacing: 2px;color: #29c0ff;margin-bottom: 0.6em;font-weight: 600;">■
+                            個人情報の利用目的</h4>
+                        <p style="font-weight: bold;">【採用応募者から取得した個人情報】</p>
+                        <p style="width: 97%; ">採用・選考手続き、応募者への連絡</p>
+
+                        <p style="font-weight: bold;">【採用時に取得した個人情報】</p>
+                        <p style="width: 97%; ">雇用契約の締結、入社手続き、機密保持の約束、身元保証の約束</p>
+
+                        <p style="font-weight: bold;">【従業者から取得した個人情報】</p>
+                        <p style="width: 97%; ">
+                            社会保障の手続き、経理清算事務、人事管理業務、教育研修、福利厚生業務、給与情報の管理、給与の支払い、労務・税理処理業務、施設等の安全管理の手続き、顧客からの技術者手配の依頼及び契約履行に関する業務、顧客に対するスキルシートの提出
+                        </p>
+
+                        <p style="font-weight: bold;">【取引先から取得した個人情報】</p>
+                        <p style="width: 97%; ">連絡報告、資料等の送付、当社の商品・サービス・システムの紹介、契約の締結、当社サービスの開発・改善、請求、支払</p>
+
+                        <p style="font-weight: bold;">【問合せにより取得した個人情報】</p>
+                        <p style="width: 97%; ">問合せの受付・回答、資料等の送付</p>
+
+                        <p style="font-weight: bold;">【電話など口頭・会話により取得した個人情報】</p>
+                        <p style="width: 97%; ">
+                            問合せの受付及び回答、申込みの場合は受付、登録や連絡、資料等を希望の場合は資料等の送付、採用への応募の場合は採用手続きの連絡と資料等の送付、面談やアポイントを希望の場合は時間と場所の指定、その他、口頭・会話の際に取り交した約束を実施するため
+                        </p>
+
+                        <p style="font-weight: bold;">【受託業務に基づき顧客及び取引先から取得した個人情報】</p>
+                        <p style="width: 97%; ">受託業務内容の実施及びその他の付属業務のため</p>
+                        <p style="font-weight: bold;">【協力会社より取得した個人情報】</p>
+                        <p style="width: 97%; ">人材の紹介、顧客への職務経歴情報の提供人材の紹介</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/inner-page-about-->
+    <!--footer-->
+    <div class="footer w3layouts-agileits">
+        <div class="container">
+            <div class="col-md-3 ftr_navi ftr">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!--<li><a href="gallery.html">Gallery</a></li>						-->
+                    <li><a href="blog.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 get_in_touch ftr">
+                <h3>Get In Touch</h3>
+                <p>〒105-0013 <br />東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
+                <p>+81 03 4500 2068</p>
+                <a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
+            </div>
+            <div class="col-md-3 ftr_navi ftr footer-grids w3l-agileits">
+
+                <h3>Join Us</h3>
+                <p>We need you and you can send your resume to the email here </p>
+                <p>
+                </p>
+                <form action="#" method="post">
+                    <input type="text" class="text" name="email" value="Enter Email" onfocus="this.value = '';"
+                        onblur="if (this.value == '') {this.value = 'Enter Email';}">
+                    <input type="submit" value="Go">
+                </form>
+
+            </div>
+            <div class="col-md-3 ftr-logo">
+                <a href="index.html">
+                    <h2>KS-Global</h2>
+                </a>
+                <p>© 2020 KS-Global. All rights Reserved </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--footer-->
+    <!---End-container---->
+    <!---->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+            */
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+        });
+    </script>
+    <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <!---->
+</body>
+
+</html>
