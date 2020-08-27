@@ -42,7 +42,7 @@
 	-o-animation: fadeInDown .3s ease-in;
 	-ms-animation: fadeInDown .3s ease-in;
     animation: fadeInDown .3s ease-in;
-	background: #29232b; 
+	background: none; 
 	top:163%;
 	min-width: 135px;
 } 

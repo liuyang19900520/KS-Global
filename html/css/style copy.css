@@ -3199,57 +3199,6 @@ div#portfoliolist {
 	.header {
 		padding: 1.5em 1em;
 	}
-	.header ul.nav.navbar-nav.navbar-left {
-		margin: 0;
-		display: block;
-	} 
-	.header .nav.navbar-nav.navbar-left li a { 
-		font-size: 1.1em; 
-		padding:.2em 0;
-	}
-	
-	.header.navbar-default .navbar-toggle .icon-bar {
-		background-color: #FFF;
-	}
-	 
-	.header .navbar-nav > li {
-		margin: 0;
-		display: block;
-		padding-top: 0.8em;
-	} 
-	div#bs-example-navbar-collapse-1 {
-		background: rgba(0, 0, 0, 0.83);
-		margin: 0;
-		padding: 0;
-		position: absolute;
-		width: 95%;
-		z-index: 999; 
-		margin-top: 1.5em;
-	}
-	.header .navbar-default .navbar-nav > li > a:before {
-		width: 0;
-		display:none;
-	}
-	.header ul.nav.navbar-nav.navbar-left {
-		margin: 0;
-		display: block;
-	}
-	.header .navbar-nav > li > .dropdown-menu li { 
-		margin: 0;
-	}
-	.header .navbar-nav > li > .dropdown-menu li:nth-child(1) { 
-		margin: 1em 0;
-	}
-	.social-icon {
-		float: none;
-		margin: 0.5em 0 1.3em;
-		text-align: center;
-	}
-	
-	.banner-text {
-		margin-top: 8em;
-	}
-	
 	.navbar-toggle {
 		margin-top: -3px;
 	}

@@ -6,310 +6,367 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>
+      KS-Global a Corporate Category Flat Bootstrap Responsive Website Template
+      | Single Page :: w3layouts
+    </title>
+    <!--css-->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--/css-->
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="KS-Global Responsive web template, Bootstrap Web Templates, Flat Web Templates,  Android  Compatible web template, 
+Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony Ericsson, Motorola web design"
+    />
+    <script type="application/x-javascript">
+      addEventListener("load", function () {
+      	setTimeout(hideURLbar, 0);
+      }, false);
 
-<head>
-	<title>KS-Global a Corporate Category Flat Bootstrap Responsive Website Template | Single Page :: w3layouts</title>
-	<!--css-->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<!--/css-->
-	<!-- for-mobile-apps -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="KS-Global Responsive web template, Bootstrap Web Templates, Flat Web Templates,  Android  Compatible web template, 
-Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony Ericsson, Motorola web design" />
-	<script type="application/x-javascript">
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+      function hideURLbar() {
+      	window.scrollTo(0, 1);
+      }
+    </script>
+    <!-- //for-mobile-apps -->
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!-- /js -->
+    <!--fonts-->
+    <link
+      href="css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<!-- //for-mobile-apps -->
-	<!-- js -->
-	<script src="js/jquery.min.js"> </script>
-	<script src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<!-- /js -->
-	<!--fonts-->
-	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link
+      href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-	<link href='//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'
-		rel='stylesheet' type='text/css'>
-	<link
-		href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400'
-		rel='stylesheet' type='text/css'>
+    <!-- <link href="afos/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
+    <link
+      href="afos/css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="afos/css/flexslider.css"
+      type="text/css"
+      media="all"
+      property=""
+    />
+    <!-- //Custom Theme files -->
+    <!-- font-awesome icons -->
+    <!-- <link href="css/font-awesome.css" rel="stylesheet"> -->
+    <!--/fonts-->
+    <!--script-->
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            {
+              scrollTop: $(this.hash).offset().top,
+            },
+            900
+          );
+        });
+      });
+    </script>
+    <!--/script-->
+    <style type="text/css">
+      .logo-afos-left {
+        width: 30%;
+        text-align: center;
+      }
 
-	<!-- <link href="afos/css/bootstrap.css" type="text/css" rel="stylesheet" media="all"> -->
-	<link href="afos/css/style.css" type="text/css" rel="stylesheet" media="all">
-	<link rel="stylesheet" href="afos/css/flexslider.css" type="text/css" media="all" property="" />
-	<!-- //Custom Theme files -->
-	<!-- font-awesome icons -->
-	<!-- <link href="css/font-awesome.css" rel="stylesheet"> -->
-	<!--/fonts-->
-	<!--script-->
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 900);
-			});
-		});
-	</script>
-	<!--/script-->
-	<style type="text/css">
-		.logo-afos-left {
-			width: 30%;
-			text-align: center;
-		}
+      .logo-afos-right {
+        width: 20%;
+        text-align: center;
+      }
 
-		.logo-afos-right {
-			width: 20%;
-			text-align: center;
-		}
+      @media only screen and (min-width: 240px) and (max-width: 883px) {
+        .img-logo {
+          width: 48px;
+          height: 48px;
+        }
 
-		@media only screen and (min-width: 240px) and (max-width: 883px) {
-			.img-logo {
-				width: 48px;
-				height: 48px;
+        .logo {
+          width: 70%;
+          float: left;
+          position: absolute;
+          top: 3px;
+          z-index: 1;
+        }
 
-			}
+        .txt-logo {
+          height: 48px !important;
+          width: 200px !important;
+        }
 
-			.logo {
-				width: 70%;
-				float: left;
-				position: absolute;
-				top: 3px;
-				z-index: 1;
-			}
+        .txt-logo-small {
+          display: none !important;
+        }
 
-			.txt-logo {
-				height: 48px !important;
-				width: 200px !important;
-			}
-
-			.txt-logo-small {
-				display: none !important;
-			}
-
-			/* .logo-afos {
+        /* .logo-afos {
 				width: 60%;
 				text-align: center;
 			} */
 
-			.logo-afos-left {
-				width: 50%;
-				text-align: center;
-			}
+        .logo-afos-left {
+          width: 50%;
+          text-align: center;
+        }
 
-			.logo-afos-right {
-				width: 37%;
-				text-align: center;
-			}
+        .logo-afos-right {
+          width: 37%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
 
+  <body>
+    <!--header-->
+    <div class="header">
+      <div class="header-nav">
+        <div class="container">
+          <div class="logo">
+            <img
+              width="15%"
+              height="10%"
+              src="images/logohuajin.png"
+              style="float: left"
+              class="img-logo"
+            />
+            <h1>
+              <a href="index.html" class="txt-logo">
+                KS-Global
+                <span class="txt-logo-small">We help you in your success</span>
+              </a>
+            </h1>
+          </div>
+          <div class="navigation">
+            <nav class="navbar navbar-default">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+                  <span class="icon-bar"> </span>
+                </button>
+              </div>
+              <div
+                class="collapse navbar-collapse nav-wil"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="active"><a href="blog.html">Services</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- script-for-menu -->
+    <script>
+      $("span.menu").click(function () {
+        $(".top-nav ul").slideToggle("slow", function () {});
+      });
+    </script>
+    <!-- script-for-menu -->
+    <div class="banner banner5"></div>
+    <!--inner-page-about-->
+    <div class="single w3layouts-agileits">
+      <div class="container">
+        <h3>AFOS</h3>
+        <h4 style="text-align: center; font-size: 2em">
+          AI Fiber Optic Solution
+        </h4>
 
-		}
-	</style>
-</head>
-
-<body>
-	<!--header-->
-	<div class="header">
-		<div class="header-nav">
-			<div class="container">
-				<div class="logo">
-					<img width="15%" height="10%" src="images/logohuajin.png" style="float: left" class="img-logo">
-					<h1><a href="index.html" class="txt-logo">
-							KS-Global <span class="txt-logo-small">We help you in your success</span> </a></h1>
-				</div>
-				<div class="navigation">
-					<nav class="navbar navbar-default">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-								data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"> </span>
-								<span class="icon-bar"> </span>
-								<span class="icon-bar"> </span>
-							</button>
-						</div>
-						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-								<li><a href="about.html">About</a></li>
-								<li class="active"><a href="blog.html">Services</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-							<div class="clearfix"></div>
-						</div><!-- /.navbar-collapse -->
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- script-for-menu -->
-	<script>
-		$("span.menu").click(function () {
-			$(".top-nav ul").slideToggle("slow", function () {});
-		});
-	</script>
-	<!-- script-for-menu -->
-	<div class="banner banner5">
-	</div>
-	<!--inner-page-about-->
-	<div class="single w3layouts-agileits">
-		<div class="container">
-			<h3>AFOS </h3>
-			<h4 style="text-align:center; font-size :2em"> AI Fiber Optic Solution </h4>
-
-			<!-- <div style="text-align:center">
+        <!-- <div style="text-align:center">
 				<img src="images/afos/afos-logo.png" class="logo-afos-left">
 				<img src="images/cloudcc/ISO-9001.jpg" class="logo-afos-right">
 			</div> -->
 
-			<div class="w3-agile-top-info">
-				<div class="w3-welcome-grids">
-					<div class="col-md-7 w3-welcome-left">
-						<h5>光ファイバーセンサーで構成したシステムメリット</h5>
+        <div class="w3-agile-top-info">
+          <div class="w3-welcome-grids">
+            <div class="col-md-7 w3-welcome-left">
+              <h5>光ファイバーセンサーで構成したシステムメリット</h5>
 
-						<p>* 設置場所ごとに電源と通信手段が必要</p>
-						<p>* 制御盤等の設置場所確保が必要になる場合がある</p>
-						<p>* 借り上げ用地代、電気通信代が維持費用として必要になる</p>
-						<p>* 信号転送距離が短い</p>
+              <p>* 設置場所ごとに電源と通信手段が必要</p>
+              <p>* 制御盤等の設置場所確保が必要になる場合がある</p>
+              <p>* 借り上げ用地代、電気通信代が維持費用として必要になる</p>
+              <p>* 信号転送距離が短い</p>
 
-						<br>
-						<br>
+              <br />
+              <br />
 
-						<p>* 現地に電源/変換器は不要</p>
-						<p>* 雷撃、電磁ノイズの影響を受けない</p>
-						<p>* センターより、数+kmの範囲まで測定可能</p>
-						<p>* 光ケーブル設置費用がかかるが、維持費用はほとんどかかりません</p>
+              <p>* 現地に電源/変換器は不要</p>
+              <p>* 雷撃、電磁ノイズの影響を受けない</p>
+              <p>* センターより、数+kmの範囲まで測定可能</p>
+              <p>
+                * 光ケーブル設置費用がかかるが、維持費用はほとんどかかりません
+              </p>
+            </div>
+            <div class="col-md-5 w3ls-welcome-img1">
+              <img src="images/afos/afos-merit.png" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="w3-welcome-grids w3-welcome-bottom">
+            <div class="col-md-5 w3ls-welcome-img1 w3ls-welcome-img2">
+              <img src="images/afos/afos-merit2.png" alt="" />
+            </div>
+            <div class="col-md-7 w3-welcome-left">
+              <h5>光ファイバーセンサー設置個所メリット</h5>
+              <br />
+              <p>
+                電気式センサーは、センサー情報を遠方に伝送するための機器や電源装置、信号変換装置を伴います。
+                これらの付帯設備はセンサー設置個所の近傍に設置します。付帯設備が浸水、落雷、停電、電磁ノイズなどの影響で、
+                データは欠測してしまう。
+              </p>
+              <br />
+              <br />
+              <p>
+                光ファイバーセンサーは、センサー設置個所にはセンサーのみが設置され、
+                上記のような付帯設備が不要なので、現地の浸水、落雷、停電、電磁ノイズなどの影響を受けない。
+                センサ部には電源が不要のため電源工事も不要であり、
+                電気式センサと比較してランニングコストを低減させることができ、環境にも優しいシステム
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
 
-					</div>
-					<div class="col-md-5 w3ls-welcome-img1">
-						<img src="images/afos/afos-merit.png" alt="" />
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="w3-welcome-grids w3-welcome-bottom">
-					<div class="col-md-5 w3ls-welcome-img1 w3ls-welcome-img2">
-						<img src="images/afos/afos-merit2.png" alt="" />
-					</div>
-					<div class="col-md-7 w3-welcome-left">
-						<h5>光ファイバーセンサー設置個所メリット</h5>
-						<br>
-						<p>電気式センサーは、センサー情報を遠方に伝送するための機器や電源装置、信号変換装置を伴います。
-							これらの付帯設備はセンサー設置個所の近傍に設置します。付帯設備が浸水、落雷、停電、電磁ノイズなどの影響で、
-							データは欠測してしまう。
-						</p>
-						<br>
-						<br>
-						<p>光ファイバーセンサーは、センサー設置個所にはセンサーのみが設置され、
-							上記のような付帯設備が不要なので、現地の浸水、落雷、停電、電磁ノイズなどの影響を受けない。
-							センサ部には電源が不要のため電源工事も不要であり、
-							電気式センサと比較してランニングコストを低減させることができ、環境にも優しいシステム
-
-						</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-
-			<div class="w3-agile-top-info">
-				<div class="w3-welcome-grids">
-					<div class="col-md-7 w3-welcome-left">
-						<h5>AFOS Cloud の仕組</h5>
-						<p> * 光ファイバに沿った連続的な分布情報（歪みや温度）をリアルタイムで正確に測定</p>
-						<p> * 光ファイバセンサで感知した情報をそのまま光ファイバを通して伝送するので、
-							情報伝送装置の設置が不要であり、トータル導入コストを低減できる可能性がある</p>
-						<p> * 光ファイバセンサで感知した情報をそのまま光ファイバを通して伝送するので、
-							情報伝送装置の設置が不要であり、トータル導入コストを低減できる可能性がある</p>
-					</div>
-					<div class="col-md-5 w3ls-welcome-img1">
-						<img src="images/afos/afos-framework.png" alt="" />
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="w3-welcome-grids w3-welcome-bottom">
-					<div class="col-md-5 w3ls-welcome-img1 w3ls-welcome-img2">
-						<img src="images/afos/afos-marketing.png" alt="" />
-					</div>
-					<div class="col-md-7 w3-welcome-left">
-						<h5>光ファイバーから未来（Smart City） </h5>
-						<p>これから様々な領域に導入できる</p>
-						<p>例えば、通信、エネルギー、鉄道交通、ロボット及び業務自動化、機械設備、工業レーザー、医療及び生命科学、センシング技術、光ファイバー、宇宙航空および衛星技術
-							など
-						</p>
-
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-
-
-
-			<br>
-			<br>
-
-			<br>
-
-		</div>
-
-	</div>
-	<!--/inner-page-about-->
-	<!--footer-->
-	<div class="footer w3layouts-agileits">
-		<div class="container">
-			<div class="col-md-3 ftr_navi ftr">
-				<h3>Navigation</h3>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<!--<li><a href="gallery.html">Gallery</a></li>						-->
-					<li><a href="blog.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="privacy.html">Privacy</a></li>
-				</ul>
-			</div>
-			<div class="col-md-3 get_in_touch ftr">
-				<h3>Get In Touch</h3>
-				<p>〒105-0013 <br />東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
-				<p>+81 03 4500 2068</p>
-				<a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
-			</div>
-			<div class="col-md-3 ftr_navi ftr footer-grids w3l-agileits">
-
-				<h3>Join Us</h3>
-				<p>We need you and you can send your resume to the email here </p>
-				<p>
-				</p>
-				<form action="#" method="post">
-					<input type="text" class="text" name="email" value="Enter Email" onfocus="this.value = '';"
-						onblur="if (this.value == '') {this.value = 'Enter Email';}">
-					<input type="submit" value="Go">
-				</form>
-
-			</div>
-			<div class="col-md-3 ftr-logo">
-				<a href="index.html">
-					<h2>KS-Global</h2>
-				</a>
-				<p>© 2020 KS-Global. All rights Reserved </p>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<!--footer-->
-	<!---End-container---->
-	<!---->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			/*
+        <div class="w3-agile-top-info">
+          <div class="w3-welcome-grids">
+            <div class="col-md-7 w3-welcome-left">
+              <h5>AFOS Cloud の仕組</h5>
+              <p>
+                *
+                光ファイバに沿った連続的な分布情報（歪みや温度）をリアルタイムで正確に測定
+              </p>
+              <p>
+                *
+                光ファイバセンサで感知した情報をそのまま光ファイバを通して伝送するので、
+                情報伝送装置の設置が不要であり、トータル導入コストを低減できる可能性がある
+              </p>
+              <p>
+                *
+                光ファイバセンサで感知した情報をそのまま光ファイバを通して伝送するので、
+                情報伝送装置の設置が不要であり、トータル導入コストを低減できる可能性がある
+              </p>
+            </div>
+            <div class="col-md-5 w3ls-welcome-img1">
+              <img src="images/afos/afos-framework.png" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="w3-welcome-grids w3-welcome-bottom">
+            <div class="col-md-5 w3ls-welcome-img1 w3ls-welcome-img2">
+              <img src="images/afos/afos-marketing.png" alt="" />
+            </div>
+            <div class="col-md-7 w3-welcome-left">
+              <h5>光ファイバーから未来（Smart City）</h5>
+              <p>これから様々な領域に導入できる</p>
+              <p>
+                例えば、通信、エネルギー、鉄道交通、ロボット及び業務自動化、機械設備、工業レーザー、医療及び生命科学、センシング技術、光ファイバー、宇宙航空および衛星技術
+                など
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+    <!--/inner-page-about-->
+    <!--footer-->
+    <div class="footer w3layouts-agileits">
+      <div class="container">
+        <div class="col-md-3 ftr_navi ftr">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="gallery.html">Gallery</a></li>						-->
+            <li><a href="blog.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 get_in_touch ftr">
+          <h3>Get In Touch</h3>
+          <p>〒105-0013 <br />東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
+          <p>+81 03 4500 2068</p>
+          <a href="mailto:info@ks-global.co.jp">info@ks-global.co.jp</a>
+        </div>
+        <div class="col-md-3 ftr_navi ftr footer-grids w3l-agileits">
+          <h3>Join Us</h3>
+          <p>We need you and you can send your resume to the email here</p>
+          <p></p>
+          <form action="#" method="post">
+            <input
+              type="text"
+              class="text"
+              name="email"
+              value="Enter Email"
+              onfocus="this.value = '';"
+              onblur="if (this.value == '') {this.value = 'Enter Email';}"
+            />
+            <input type="submit" value="Go" />
+          </form>
+        </div>
+        <div class="col-md-3 ftr-logo">
+          <a href="index.html">
+            <h2>KS-Global</h2>
+          </a>
+          <p>© 2020 KS-Global. All rights Reserved</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!--footer-->
+    <!---End-container---->
+    <!---->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
 			var defaults = {
 			containerID: 'toTop', // fading element id
 			containerHoverID: 'toTopHover', // fading element hover id
@@ -317,13 +374,14 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG,Sony
 			easingType: 'linear' 
 			};
 			*/
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-		});
-	</script>
-	<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<!---->
-</body>
-
+        $().UItoTop({
+          easingType: "easeOutQuart",
+        });
+      });
+    </script>
+    <a href="#to-top" id="toTop" style="display: block">
+      <span id="toTopHover" style="opacity: 1"> </span
+    ></a>
+    <!---->
+  </body>
 </html>
